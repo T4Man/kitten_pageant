@@ -1,0 +1,49 @@
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans', Tahoma, sans-serif;
+}
+body {
+  background-color: #638Ab2;
+  min-width: 600px;
+  max-width: 900px;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 33%;
+}
+.mainContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.chart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#newPicsBtn {
+  height: 70px;
+  width: 100px;
+  font-size: 1em;
+  background-color: #FF551B;
+  border: solid 3px #00B28A;
+  margin-top: 10%;
+}
+h1 {
+  font-size: 2.5em;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+.how-to {
+  list-style: none;
+}
+.selected {
+  zoom: 1.1;
+  border: dotted 5px red;
+}

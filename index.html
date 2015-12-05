@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kittens!</title>
+    <link rel="stylesheet" type="text/css" href="kittens.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Cutest Kitten Pageant</h1>
+      <h3>Click on the picture to vote for the cutest kitten!</h3>
+    </header>
+    <hr>
+    <section class='mainContent'>
+      <figure id='leftImageDiv'>
+        <img id='leftImage' src=""/>
+      </figure>
+      <button id='newPicsBtn'>Get New Pics!</button>
+      <figure id='rightImageDiv'>
+        <img id='rightImage' src=""/>
+      </figure>
+    </section>
+    <section class='chart'>
+      <canvas id="kittenChart" width="400" height="200"></canvas>
+    </section>
+    <hr>
+    <footer>
+      <ul class="how-to">
+      <li>Vote for your favorite kitten by clicking on the picture.</li>
+      <li>See how your selection rates against the other kittens.</li>
+      <li>Get new pictures by clicking on the "Get New Pics!" button.</li>
+      <li>Vote as often as you like!</li>
+      <ul>
+    </footer>
+    <hr>
+    <script src="kittens.js"></script>
+  </body>
+</html>
